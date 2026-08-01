@@ -19,7 +19,7 @@ const productoSchema = new mongoose.Schema(
     },
     categoria: {
       type: String,
-      enum: ['aseo', 'jugueteria', 'panaderia', 'otro'],
+      enum: ['cono', 'vaso', 'paleta', 'sundae', 'otro'],
       default: 'otro'
     }
   },
